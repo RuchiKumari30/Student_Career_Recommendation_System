@@ -30,13 +30,6 @@ The dataset includes essential student details such as:
 
 ---
 
-## Tools & Technologies  
-| Category | Tools/Technologies |
-|-----------|--------------------|
-| Language | Python |
-| Libraries | Pandas, NumPy, Scikit-learn, Pickle |
-| Models | RandomForestClassifier, XGBoost, SVC |
-| IDEs | Jupyter Notebook, VS Code |
 
 ---
 
@@ -49,15 +42,3 @@ The dataset includes essential student details such as:
 
 ---
 
-##  How It Works  
-```python
-# Step 1: Load the model
-import pickle
-model = pickle.load(open('career_model.pkl', 'rb'))
-
-# Step 2: Input student details
-input_data = ['B.Com', 'Finance', 'Data Analysis']
-
-# Step 3: Predict career path
-predicted_career = model.predict([input_data])
-print("Recommended Career:", predicted_career)
