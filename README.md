@@ -1,4 +1,4 @@
-# Student_Career_Recommendation_System
+
 # Student Career Recommendation System  
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)  
